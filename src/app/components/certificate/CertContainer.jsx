@@ -50,14 +50,14 @@ export default function CertContainer() {
   ];
 
   return (
-    <div className="flex flex-col gap-5 border border-[#222222] rounded-xl bg-[#111111] py-5 px-10">
-      <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-bold">Certificates</h1>
-        <div>
-          <h1 className="text-xl font-bold">
+    <div className="col-span-3 flex flex-col gap-5 border border-[#222222] rounded-xl bg-[#111111] p-5">
+      <div className="flex justify-between">
+        <h1 className="section-title">Certificates</h1>
+        <button>
+          <h1 className="text-lg font-bold">
             View More <MoveRight className="inline ml-2" size={20} />
           </h1>
-        </div>
+        </button>
       </div>
       <div className="grid grid-cols-3 gap-5">
         {certificates.slice(0, 3).map((cert) => (

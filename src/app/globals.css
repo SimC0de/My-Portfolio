@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.section-title {
+  font-size: var(--text-2xl) /* 1.5rem = 24px */;
+  line-height: var(
+    --tw-leading,
+    var(--text-2xl--line-height) /* calc(2 / 1.5) ≈ 1.333333 */
+  );
+  --tw-font-weight: var(--font-weight-bold) /* 700 */;
+  font-weight: var(--font-weight-bold) /* 700 */;
+}

@@ -34,3 +34,13 @@ body {
   --tw-font-weight: var(--font-weight-bold) /* 700 */;
   font-weight: var(--font-weight-bold) /* 700 */;
 }
+
+.project-title {
+  font-size: 18px;
+  line-height: var(
+    --tw-leading,
+    var(--text-2xl--line-height) /* calc(2 / 1.5) ≈ 1.333333 */
+  );
+  --tw-font-weight: var(--font-weight-bold) /* 700 */;
+  font-weight: var(--font-weight-bold) /* 700 */;
+}

@@ -48,7 +48,7 @@ export default function CertCard({ cert }) {
               width={800}
               height={1}
                           alt={selectedCert.alt}
-                          className="w-auto h-[100%]"
+                          className="w-auto h-[full]"
             />
           </div>
           <div className="fixed top-5 right-5 flex items-center justify-center">

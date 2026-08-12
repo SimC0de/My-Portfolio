@@ -42,16 +42,16 @@ export default function CertCard({ cert }) {
       </button>
       {selectedCert && (
         <div>
-          <div className="fixed inset-0 flex bg-black/80 items-center justify-center">
+          <div className="fixed inset-0 flex bg-black/80 items-center justify-center z-10">
             <Image
               src={selectedCert.image}
               width={800}
               height={1}
-                          alt={selectedCert.alt}
-                          className="w-auto h-[full]"
+              alt={selectedCert.alt}
+              className="w-auto h-[full]"
             />
           </div>
-          <div className="fixed top-5 right-5 flex items-center justify-center">
+          <div className="fixed top-5 right-5 flex items-center justify-center z-10">
             <button
               onClick={() => setSelectedCert(null)}
               className="bg-white rounded-[50%] p-3 text-black"

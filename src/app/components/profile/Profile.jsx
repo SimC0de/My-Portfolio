@@ -14,7 +14,7 @@ export default function Profile() {
           className="rounded-[50%]"
         />
         <h1 className="text-[28px] font-bold">Simone Roy G. Abello</h1>
-        <Marquee speed={40} style={{width: '85%'}}>
+        <Marquee speed={40} style={{ width: '85%' , zIndex: 0}}>
           <ul className="flex text-[20px] font-bold text-gray-500 gap-2">
             <li></li> 
             <li className="">IT Graduate</li>

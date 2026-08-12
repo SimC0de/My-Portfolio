@@ -13,14 +13,19 @@ export default function ProjCon() {
   ];
 
   return (
-    <div className="col-span-3 flex flex-col gap-5 border border-[#222222] rounded-xl bg-[#111111] p-5">
+    <div className="col-span-2 flex flex-col gap-5 border border-[#222222] rounded-xl bg-[#111111] p-5">
       <div className="flex justify-between">
         <h1 className="section-title">Projects</h1>
       </div>
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-2 gap-5">
         {projects.slice(0, 3).map((proj) => (
           <ProjCard key={proj.id} proj={proj} />
         ))}
+        <div className="flex flex-col border border-[#222222] rounded-2xl h-full justify-center items-center">
+          <h1 className="text-3xl font-bold">
+            Work in Progress...
+          </h1>
+        </div>
       </div>
     </div>
   );

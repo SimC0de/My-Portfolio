@@ -44,3 +44,36 @@ body {
   --tw-font-weight: var(--font-weight-bold) /* 700 */;
   font-weight: var(--font-weight-bold) /* 700 */;
 }
+
+/* Embla */
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.embla__dot {
+  border: 1px solid white;
+  border-radius: 50%;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.embla__dot--selected {
+  background-color: white;
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+  cursor: default;
+}
+/*Embla */

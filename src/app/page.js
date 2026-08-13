@@ -4,6 +4,7 @@ import { Laptop, CodeXml, Video, Layers } from 'lucide-react';
 import TechStack from "./components/TechStack";
 import Profile from "./components/profile/Profile";
 import ProjCon from "./components/project/ProjCon";
+import Education from "./components/Education";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Profile />
         <ProjCon />
         <TechStack />
+        <Education/>
         <CertContainer />
       </div>
     </div>

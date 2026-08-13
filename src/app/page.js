@@ -5,6 +5,7 @@ import TechStack from "./components/TechStack";
 import Profile from "./components/profile/Profile";
 import ProjCon from "./components/project/ProjCon";
 import Education from "./components/Education";
+import Experience from "./Experience";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
         <Profile />
         <ProjCon />
         <TechStack />
-        <Education/>
+        <Education />
+        <Experience />
         <CertContainer />
       </div>
     </div>

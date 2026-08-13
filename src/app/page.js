@@ -5,7 +5,7 @@ import TechStack from "./components/TechStack";
 import Profile from "./components/profile/Profile";
 import ProjCon from "./components/project/ProjCon";
 import Education from "./components/Education";
-import Experience from "./Experience";
+import Experience from "./components/Experience";
 
 export default function Home() {
   return (

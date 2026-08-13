@@ -17,8 +17,6 @@ export default function Profile() {
         <Marquee speed={40} style={{ width: '85%' , zIndex: 0}}>
           <ul className="flex text-[20px] font-bold text-gray-500 gap-2">
             <li></li> 
-            <li className="">IT Graduate</li>
-            <li>•</li>
             <li className="">Full-Stack Web Developer</li>
             <li>•</li>
             <li className="">Video Editor</li>
